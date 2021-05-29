@@ -1,0 +1,13 @@
+Container Queries are going to be a game changer! (https://www.youtube.com/watch?v=JsN_iE3prm0)
+
+https://codepen.io/kevinpowell/pens/public?cursor=ZD0xJm89MCZwPTEmdj01MjE3MDQyOQ==
+https://codepen.io/kevinpowell/pen/abpMpxK
+https://codepen.io/kevinpowell/details/BapbpQe
+
+https://github.com/Annie-Huang/container-query
+
+https://www.google.com/intl/en_ca/chrome/canary/
+=================================================================
+Need to use Chrome canary.
+
+
