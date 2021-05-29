@@ -74,6 +74,8 @@ p {
   flex-direction: column;
 }
 
+// When the window size becomes smaller, the aside card will stack on the bottom, and
+// now at this time, there is enough room for the whole row, so the .card-container will lay as flex-direction: row
 @container (min-width: 25rem) {
   .card-container {
     border: 1px solid red;
