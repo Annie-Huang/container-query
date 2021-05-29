@@ -7,7 +7,10 @@ https://codepen.io/kevinpowell/details/BapbpQe
 https://github.com/Annie-Huang/container-query
 
 https://www.google.com/intl/en_ca/chrome/canary/
+https://github.com/w3c/csswg-drafts/issues/5796
 =================================================================
 Need to use Chrome canary.
+
+chrome://flags/
 
 

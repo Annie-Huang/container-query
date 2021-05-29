@@ -54,6 +54,10 @@ p {
 }
 
 .card {
+  // It means this is self-isolate container, and we will use inline (not block) with it.
+  // From Kevin's first comment, now we need to have the keyword 'style' to be able to see it.
+  contain: layout style inline-size;
+
   width: 100%;
   box-shadow: 0 0.25em 0.75em hsl(0 0% 0% / 0.15);
 
@@ -63,6 +67,17 @@ p {
 
   &__content {
     padding: 0.75rem;
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@container (min-width: 25rem) {
+  .card-container {
+    border: 1px solid red;
+    flex-direction: row;
   }
 }
 
