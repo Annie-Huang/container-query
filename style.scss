@@ -81,15 +81,25 @@ p {
     border: 1px solid red;
     flex-direction: row;
   }
+
+  .card-container > img {
+    max-width: 15rem;
+  }
 }
 
 aside {
   flex-basis: 50%;
-  gap: 2em;
+  contain: layout style inline-size;
 }
 
-.aside-content {
+.aside-container {
   display: flex;
   gap: 2em;
   flex-direction: column;
+}
+
+@container (min-width: 35rem) {
+  .aside-container {
+    flex-direction: row;
+  }
 }
